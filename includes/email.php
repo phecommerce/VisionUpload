@@ -4,7 +4,7 @@ class Email
 {
   private $hostname = '{imap.gmail.com:993/imap/ssl/novalidate-cert}INBOX';
   private $username = 'phecommerce@gmail.com';
-  private $password = 'InspireHornbeam28';
+  private $password = '';
   private $inbox;
 
   public function __Construct()
